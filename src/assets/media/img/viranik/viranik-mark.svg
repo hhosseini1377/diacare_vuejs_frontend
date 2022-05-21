@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100px" height="100px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 100 100"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#1C1B17;stroke-width:3.44;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .fil0 {fill:none}
+    .fil1 {fill:#1C1B17}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="Logomark">
+   <path class="fil0 str0" d="M50.123 3.817c25.707,0 46.548,20.84 46.548,46.548 0,25.707 -20.841,46.547 -46.548,46.547 -25.707,0 -46.548,-20.84 -46.548,-46.547 0,-25.708 20.841,-46.548 46.548,-46.548z"/>
+   <path class="fil1" d="M5.404 36.551l39.783 0.121c3.96,-0.135 5.756,-2.751 5.857,-5.23 0.109,-2.666 -1.717,-5.297 -5.208,-5.429l-15.376 0.228 -5.887 -12.694 21.761 0.235c18.72,-0.127 23.77,11.686 17.506,25.268l-14.671 27.424 -5.462 -11.33 3.622 -6.445 -43.323 0.107 1.398 -12.255z"/>
+   <polygon class="fil1" points="11.531,24.457 20.991,13.815 30.128,33.595 15.938,33.702 "/>
+   <polygon class="fil1" points="32.601,75.95 37.653,87.13 33.891,93.795 24.968,89.925 "/>
+   <polygon class="fil1" points="24.001,51.87 38.728,51.87 50.231,77.347 71.996,36.875 94.499,36.941 96.415,48.342 77.397,48.42 56.262,90.951 43.888,91 "/>
+  </g>
+ </g>
+</svg>

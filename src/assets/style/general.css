@@ -1,0 +1,174 @@
+p{
+    color: #5B5B5B;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 33px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 87px;
+}
+.no-bg:before{
+    background: none !important;
+}
+.border-none, .border-none *{
+    border: none !important;
+}
+.small-text{
+    font-size: 80% !important;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.text-body-3{
+    font-size: 12px;
+}
+.pointer{
+    cursor: pointer;
+}
+/*v-input*/
+.v-input__append-outer, .v-input__prepend-outer{
+    margin-bottom: 0 !important;
+}
+/*remove number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/*v-data-table*/
+.v-data-footer__select, .v-data-table-header-mobile{
+    display: none !important;
+}
+.v-data-footer{
+    justify-content: flex-end;
+    padding: 20px 0 0 0 !important;
+}
+/*scrollbar*/
+*::-webkit-scrollbar-corner {
+    background: none;
+}
+.v-application *::-webkit-scrollbar {
+    width: 13px;
+}
+.v-application *::-webkit-scrollbar-track {
+    background: #e6e6e6;
+    border-left: 1px solid #dadada;
+    border-radius: 15px;
+    margin: 0;
+}
+.v-application *::-webkit-scrollbar-thumb {
+    background: #b0b0b0;
+    border: solid 2px #e6e6e6;
+    border-radius: 15px;
+}
+.v-application *::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+/*button*/
+.v-btn.exclusive{
+    background-image: linear-gradient(360deg, rgba(0,0,0,0.45), transparent);
+    color: #fff !important;
+}
+/*auth-card*/
+.auth-card-border{
+    border-radius: 60px !important;
+    position: relative;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.91));
+    padding: 7px;
+}
+.auth-card{
+    border: none !important;
+    border-radius: 60px !important;
+    background: linear-gradient(244.76deg, rgba(232, 231, 231, 0.93) 2.24%, rgba(237, 237, 237, 0) 98.03%) !important;
+    backdrop-filter: blur(143px);
+}
+.circular-bg{
+    width: 35vh;
+    height: 35vh;
+    position: fixed;
+    filter: blur(15px);
+    border-radius: 50%;
+    right: -10vh;
+    top: 7vh;
+}
+.circular-bg.second{
+    right: auto;
+    top: auto;
+    left: -7vh;
+    bottom: -5vh;
+}
+.circular-bg.isblue{
+    background: linear-gradient(180deg, rgba(97, 218, 255, 0.5) 0%, rgba(1, 174, 227, 0.5) 100%) !important;
+}
+.circular-bg.isblue.second{
+    background: rgba(10, 197, 255, 0.4) !important;
+    filter: blur(12px);
+}
+.circular-bg.isgreen{
+    background: linear-gradient(180deg, rgba(0, 255, 117, 0.5) 0%, rgba(0, 175, 83, 0.5) 100%) !important;
+}
+.circular-bg.isgreen.second{
+    background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(0, 175, 83, 0.4) 100%);
+    filter: blur(12px);
+}
+.main-layout .circular-bg{
+    width: 100vh;
+    height: 100vh;
+    right: -40vh;
+    top: 15vh;
+    opacity: 0.3;
+    filter: blur(92px);
+}
+.main-layout .circular-bg.second{
+    right: auto;
+    top: auto;
+    left: -20vh;
+    bottom: -50vh;
+    filter: blur(92px);
+}
+@media screen and (orientation: landscape) {
+    .circular-bg{
+        width: 35vw;
+        height: 35vw;
+        right: -10vw;
+        top: 7vw;
+    }
+    .circular-bg.second{
+        left: -7vw;
+        bottom: -5vw;
+    }
+}
+@media screen and (max-width: 1263px) {
+    .heading{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .heading{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .heading{
+        font-size: 24px;
+        line-height: 38px;
+    }
+}
